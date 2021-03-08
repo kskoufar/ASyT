@@ -10,6 +10,6 @@ lxplus7
 scl enable devtoolset-7 bash
 
 ### References:
-K. Skoufaris, Ch. Skokos, Y. Papaphilippou and J. Laskar, "Accelerator tracking via high order symplectic integration method with only foreword integration steps".//
-J. Laskar and P. Robutel, "High order symplectic integrators for perturbed hamiltonian systems".//
-H. Burkhardt, R. De Maria, M. Giovannozzi, and T. Risselada, "Improved Teapot method and tracking with thick quadrupoles for the LHC and its upgrade".
+-K. Skoufaris, Ch. Skokos, Y. Papaphilippou and J. Laskar, "Accelerator tracking via high order symplectic integration method with only foreword integration steps".
+-J. Laskar and P. Robutel, "High order symplectic integrators for perturbed hamiltonian systems".
+-H. Burkhardt, R. De Maria, M. Giovannozzi, and T. Risselada, "Improved Teapot method and tracking with thick quadrupoles for the LHC and its upgrade".
