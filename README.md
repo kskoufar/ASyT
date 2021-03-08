@@ -1,5 +1,5 @@
 # ASyT
-ASyT is a symplectic tracking code for accelerators that use CSABAm, TEAPOTm and SIMPOLEm integrators.
+ASyT is a symplectic tracking code for accelerators that include the CSABAm, TEAPOTm and SIMPOLEm integrators.
 
 ### For compilation use:
 gfortran -O3 symplcetic_tracking.f08 -o abc
