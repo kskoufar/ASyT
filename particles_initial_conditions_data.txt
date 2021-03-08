@@ -1,0 +1,6 @@
+#$% every new line has to start with the "#$%" or the particles initial conditions
+#$% even the empty lines must start with "#$%"
+#$%
+#$% X[m] PX Y[m] PY l[m] delta
+0.0 1.0E-6 0.0 1.0E-8 0.0 0.0
+#$%0.0002 0.0 0.0 0.0 0.0 0.0

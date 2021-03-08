@@ -1,0 +1,60 @@
+#$% every new line has to start with the "#$%" or the supported elements name
+#$% even the empty lines must start with "#$%"
+#$%
+#$% np.fromfile('/home/kskoufar/CERN_Box/Symplectic_Tracking_Code/tbt_data.bin', dtype='<f8').reshape(( (initia(1)+tracking)*particles ,6))
+#$%
+#$% element_name element_id (unique for each element) element_length(m) bending_angle(rad) quadrupole_normalised_strenqth(1/m) sextupole_normalised_strenqth(1/m^2) octupole_normalised_strenqthnorm_strength(1/m^3)
+#$%
+#$%
+#$% 56 half fodo cell per arc (56*3*0.004674989067842*8=2*pi)
+#$% with chroma=15 and qx=62.315 and qy=60.32 and ENERGY = 6500 and emit_norm=2.5*1e-6
+#$% at the start BETX=171.9083165 , BETY=30.14182466 , SIG11=6.203722074e-08 and SIG33=1.087739714e-08
+#$%
+MARK sta 0.0 0.0 0.0 0.0 0.0
+CSDI b1a_1 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1a_1 1.36 0.0 0.0 0.0 0.0
+CSDI b1b_1 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1b_1 1.36 0.0 0.0 0.0 0.0
+CSDI b1c_1 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr2_1 1.74474 0.0 0.0 0.0 0.0
+OCTU oc1_1 0.32 0.0 0.0 0.0 16.2144892281
+DRIF dr3_1 0.301 0.0 0.0 0.0 0.0
+QUAD qd1_1 3.1 0.0 -0.009245091362 0.0 0.0
+DRIF dr4_1 0.1605 0.0 0.0 0.0 0.0
+SEXT sd1_1 0.369 0.0 0.0 -0.117912915 0.0
+DRIF dr5_1 1.83624 0.0 0.0 0.0 0.0
+CSDI b1a_2 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1a_2 1.36 0.0 0.0 0.0 0.0
+CSDI b1b_2 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1b_2 1.36 0.0 0.0 0.0 0.0
+CSDI b1c_2 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr2_2 1.74474 0.0 0.0 0.0 0.0
+OCTU oc1_2 0.32 0.0 0.0 0.0 16.2144892281
+DRIF dr3_2 0.301 0.0 0.0 0.0 0.0
+QUAD qf1_2 3.1 0.0 0.009412742041 0.0 0.0
+DRIF dr4_2 0.1605 0.0 0.0 0.0 0.0
+SEXT sf1_2 0.369 0.0 0.0 0.05600875739 0.0
+DRIF dr5_2 1.83624 0.0 0.0 0.0 0.0
+CSDI b1a_2 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1a_2 1.36 0.0 0.0 0.0 0.0
+CSDI b1b_3 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1b_3 1.36 0.0 0.0 0.0 0.0
+CSDI b1c_3 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr2_3 1.74474 0.0 0.0 0.0 0.0
+OCTU oc1_3 0.32 0.0 0.0 0.0 16.2144892281
+DRIF dr3_3 0.301 0.0 0.0 0.0 0.0
+QUAD qd1_3 3.1 0.0 -0.009245091362 0.0 0.0
+DRIF dr4_3 0.1605 0.0 0.0 0.0 0.0
+SEXT sd2_3 0.369 0.0 0.0 -0.117912915 0.0
+DRIF dr5_3 1.83624 0.0 0.0 0.0 0.0
+CSDI b1a_4 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1a_4 1.36 0.0 0.0 0.0 0.0
+CSDI b1b_4 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr1b_4 1.36 0.0 0.0 0.0 0.0
+CSDI b1c_4 14.3 0.004674989067842 0.0 0.0 0.0
+DRIF dr6_4 2.36574 0.0 0.0 0.0 0.0
+QUAD qf1_4 3.1 0.0 0.009412742041 0.0 0.0
+DRIF dr4_4 0.1605 0.0 0.0 0.0 0.0
+SEXT sf2_4 0.369 0.0 0.0 0.05600875739 0.0
+DRIF dr5_4 1.83624 0.0 0.0 0.0 0.0
+MARK end 0.0 0.0 0.0 0.0 0.0
